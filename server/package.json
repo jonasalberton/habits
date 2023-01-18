@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "migrate:dev": "npx prisma migrate dev",
+    "seed": "npx prisma db seed",
     "prisma-studio": "npx prisma studio"
   },
   "keywords": [],
@@ -19,6 +20,10 @@
     "typescript": "^4.9.4"
   },
   "devDependencies": {
+    "@types/node": "^18.11.18",
     "prisma": "^4.9.0"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
   }
 }
