@@ -1,2 +1,6 @@
 # habits
-Full stack open - practice
+Full stack project practice 
+- React + ts
+- Node + ts
+- SQLite
+- Prisma
